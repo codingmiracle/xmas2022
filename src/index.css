@@ -1,5 +1,15 @@
+:root {
+  --background-primary: #000000;
+  --background-secondary: #282c34;
+  --green-main: #00ff2f;
+  --green-light: #83ff9a;
+  --green-lighter: #c2ffcd;
+
+}
+
 body {
   margin: 0;
+  background: var(--background-primary);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

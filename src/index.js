@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+export const lightGreen = '#83ff9a'
+export const lighterGreen = '#c2ffcd'
+export const mainGreen = '#00ff2f'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

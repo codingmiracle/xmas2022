@@ -1,0 +1,14 @@
+
+#screen {
+    display: inline-block;
+    z-index: 1;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#blur {
+    position:absolute;
+    left:0;
+    top:0;
+}
