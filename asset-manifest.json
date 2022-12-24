@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/matrixmas/static/css/main.cdeebd0d.css",
-    "main.js": "/matrixmas/static/js/main.aab34f03.js",
+    "main.js": "/matrixmas/static/js/main.fbdbb09e.js",
     "static/js/787.1e84d06f.chunk.js": "/matrixmas/static/js/787.1e84d06f.chunk.js",
     "index.html": "/matrixmas/index.html",
     "main.cdeebd0d.css.map": "/matrixmas/static/css/main.cdeebd0d.css.map",
-    "main.aab34f03.js.map": "/matrixmas/static/js/main.aab34f03.js.map",
+    "main.fbdbb09e.js.map": "/matrixmas/static/js/main.fbdbb09e.js.map",
     "787.1e84d06f.chunk.js.map": "/matrixmas/static/js/787.1e84d06f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdeebd0d.css",
-    "static/js/main.aab34f03.js"
+    "static/js/main.fbdbb09e.js"
   ]
 }
