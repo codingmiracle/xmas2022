@@ -1,7 +1,8 @@
 import './App.css';
-import {Component, useEffect} from "react";
+import {Component} from "react";
 import ErrorBoundary from "./components/Errorboundary/Errorboundary";
 import GameForm from "./components/Game/GameForm";
+import MessageForm from "./components/Message/MessageForm";
 
 class App extends Component {
 
@@ -19,13 +20,14 @@ class App extends Component {
         return (
             <div className="App">
                 <ErrorBoundary>
-                    <header className={"App-header"}>
+                    <header className={"App-header glow"}>
                         <h1>
                             <div id={"App-title"}>Frohe Weihnachten {this.renderName()}!</div>
                         </h1>
                     </header>
                     <main className={"App-main"}>
                         <GameForm/>
+                        <MessageForm/>
                     </main>
                     <footer className={"App-footer"}>
 

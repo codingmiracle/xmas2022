@@ -5,26 +5,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--green-light);
 }
 
 .App-header {
   font-size: calc(10px + 2vmin);
-  color: var(--green-main);
 }
 
 #App-title {
   font-weight: 300;
+}
+
+.App-main {
+  font-size: calc(10px + 2vmin);
+  color: var(--green-light);
+}
+
+.glow {
   text-shadow: 0 0 2rem var(--green-lighter), 0 0 4rem var(--green-light), 0 0 6rem var(--green-main);
   color: var(--green-light);
   /*-webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;*/
-}
-
-.App-main {
-  font-size: calc(10px + 2vmin);
-  color: var(--green-main);
-
 }
 
 @-webkit-keyframes glow {
