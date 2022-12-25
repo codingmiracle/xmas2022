@@ -2,13 +2,11 @@ import './Game.css'
 import {useEffect, useRef} from "react";
 import {lightGreen} from "../../index";
 import {drawSnow, initSnow, updateSnow} from "./Snow";
-import present from '../../1175589.png';
 
-const GameForm = props => {
+const TreeForm = () => {
 
     const canvasRef = useRef(null);
     const canvasRefBlur = useRef(null);
-    const presentRef = useRef(null);
 
     const drawTree = (ctx, col, lineWidth) => {
         let heightOffset = 150;
@@ -57,7 +55,6 @@ const GameForm = props => {
     useEffect(() => {
         const canvas = canvasRef.current;
         const canvasBlur = canvasRefBlur.current;
-        const p = presentRef.current;
         const context = canvas.getContext('2d');
         const contextBlur = canvasBlur.getContext('2d');
         contextBlur.canvas.style.filter = 'blur(1rem)';
@@ -97,11 +94,7 @@ const GameForm = props => {
     return (<div>
         <canvas id={"screen"} ref={canvasRef}/>
         <canvas id={"blur"} ref={canvasRefBlur}/>
-        <div className={"container-present"} ref={presentRef} onClick={console.log}>
-            <span>???</span>
-            <img id={"present"} src={present} alt={"Click here"}/>
-        </div>
     </div>);
 }
 
-export default GameForm
+export default TreeForm

@@ -1,7 +1,7 @@
 import './App.css';
 import {Component} from "react";
 import ErrorBoundary from "./components/Errorboundary/Errorboundary";
-import GameForm from "./components/Game/GameForm";
+import TreeForm from "./components/Game/TreeForm";
 import MessageForm from "./components/Message/MessageForm";
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
                         </h1>
                     </header>
                     <main className={"App-main"}>
-                        <GameForm/>
+                        <TreeForm/>
                         <MessageForm/>
                     </main>
                     <footer className={"App-footer"}>
